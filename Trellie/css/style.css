@@ -1,0 +1,121 @@
+*, *::after, *::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  max-height: 100vh;
+  padding: 4rem;
+  display: flex;
+  background: #4649FF;
+  font-size: 1.6rem;
+  font-family: "Open Sans";
+  color: #3C4048;
+  overflow-y: hidden;
+}
+
+main {
+  display: flex;
+  gap: 4rem;
+}
+
+.tasks {
+  background: #DDDDDD;
+  width: 35rem;
+  padding: 1rem;
+  border-radius: 0.3rem;
+  overflow-y: scroll;
+}
+.tasks--hidden {
+  display: none;
+}
+.tasks__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+.tasks__header__wrapper {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-end;
+}
+.tasks__h2 {
+  font-size: 100%;
+  font-weight: 700;
+}
+.tasks__number {
+  background: #0066ff;
+  font-size: 90%;
+  padding: 0.5rem;
+  color: white;
+  font-weight: 500;
+  border-radius: 0.3rem;
+}
+.tasks__edit {
+  background: none;
+  border: none;
+  font-size: 150%;
+  line-height: 1;
+  cursor: pointer;
+}
+.tasks__list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.tasks__listItem {
+  background: white;
+  font-size: 90%;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  gap: 2rem;
+  box-shadow: 0 0.3rem 0 #d9d9d9;
+}
+.tasks__listItem__Block {
+  display: block;
+  height: 3rem;
+  position: relative;
+}
+.tasks__listItem__Block__author {
+  background: #A03C78;
+  color: white;
+  width: 3rem;
+  text-align: center;
+  padding: 0.5rem;
+  display: inline;
+  border-radius: 50%;
+  text-align: right;
+  position: absolute;
+  bottom: 0.5rem;
+  right: 0.5rem;
+}
+.tasks__label {
+  display: block;
+  background: #379237;
+  width: max-content;
+  padding: 0.2rem 0.3rem;
+  border-radius: 0.3rem;
+  color: #eee;
+  font-size: 90%;
+}
+.tasks__label--tomorrow {
+  background: #A03C78;
+}
+.tasks__label--weekend {
+  background: #E26A2C;
+}
+.tasks__label--nextWeek {
+  background: #0E9AA7;
+}
+.tasks__label--sometime {
+  background: #C21010;
+}
+
+/*# sourceMappingURL=style.css.map */

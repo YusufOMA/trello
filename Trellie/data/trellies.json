@@ -1,0 +1,38 @@
+{
+    "title": "LOL",
+    "activitiesCount": 1,
+    "activities": [
+        {
+            "description": "hij werkt!!!!!!!!!!!!!!",
+            "label": "vandaag!!",
+            "extraClass": "none",
+            "author": "YO"
+        },
+        {
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, totam quos. Unde, veniam! Debitis quos sit similique cumque labore, voluptatem doloribus corrupti, libero iste dolorum ex quibusdam consectetur. Aliquam, quis? ",
+            "label": "Morgen",
+            "extraClass": "tomorrow",
+            "author": "YO"
+        },
+        {
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, totam quos. Unde, veniam! Debitis quos sit similique cumque labore, voluptatem doloribus corrupti, libero iste dolorum ex quibusdam consectetur. Aliquam, quis? ",
+            "label": "Weekend",
+            "extraClass": "weekend",
+            "author": "YO"
+        },
+        {
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, totam quos. Unde, veniam! Debitis quos sit similique cumque labore, voluptatem doloribus corrupti, libero iste dolorum ex quibusdam consectetur. Aliquam, quis? ",
+            "label": "Volgende week",
+            "extraClass": "nextWeek",
+            "author": "YO"
+            
+        },
+        {
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, totam quos. Unde, veniam! Debitis quos sit similique cumque labore, voluptatem doloribus corrupti, libero iste dolorum ex quibusdam consectetur. Aliquam, quis? ",
+            "label": "Ooit",
+            "extraClass": "sometime",
+            "author": "YO"
+        
+        }
+    ]
+}
